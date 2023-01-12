@@ -1,0 +1,117 @@
+.main-cart-section .total-items {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    color: var(--main-color);
+    margin-bottom: 5rem;
+}
+
+.main-cart-section .cart-items {
+    width: 80%;
+    height: 80%;
+    background: linear-gradient(103.49deg,
+            #f5f4f4 -28.13%,
+            rgba(242, 247, 255, 0.5) 116.84%);
+    box-shadow: rgba(0, 0, 0, 0.08) 0rem 0.4rem 1.2rem;
+    border-radius: 2rem;
+    margin: auto;
+    margin: auto;
+    display: grid;
+    place-items: center;
+    padding-top: 30px;
+}
+
+.cart-items hr {
+    margin: 2rem auto;
+    overflow-y: scroll;
+
+}
+
+.cart-items-container {
+    width: 90%;
+    height: 56rem;
+}
+
+.items-info {
+    width: 100%;
+    height: 10rem;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+p{
+    padding-left: 40px;
+}
+
+
+
+.items-info .title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.items-info .title p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    text-align: left;
+    color: var(--primary-color);
+}
+.price{
+
+    padding: 60px;
+}
+
+
+
+.price h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: var(--main-color);
+}
+
+.add-minus-quantity {
+    padding: 50px;
+}
+
+.btn {
+    width: 106%;
+    margin-top: 35px;
+    margin-left: 96px;
+
+}
+
+button {
+
+
+    background-image: linear-gradient(to right, #314755 0%, #26a0da 51%, #314755 100%);
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px rgb(251, 251, 251);
+    border-radius: 10px;
+    display: block;
+   
+}
+
+button:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+.total-items{
+    font-style: italic;
+    color: red;
+}
